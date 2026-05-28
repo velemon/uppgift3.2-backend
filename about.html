@@ -16,17 +16,48 @@
     </nav>
     <h1>Om denna webbplats</h1>
     <section class="about">
-        <p>Denna webbplats är </p>
+        <p>Denna webbplats är skapad som en fristående frontend-applikation som kommunicerar med ett REST-baserat API
+            med hjälp av Fetch API i JavaScript.
+            Webbplatsens syfte är att hantera arbetserfarenheter genom att visa, lägga till och radera poster från en
+            databas.
+            Frontend-delen är byggd med HTML, CSS och JavaScript medan backend-delen är utvecklad med Node.js
+            och Express.
+            Datan lagras i en MongoDB-databas och hanteras med hjälp av Mongoose.
+            MongoDB är en dokumentbaserad NoSQL-databas där information lagras som dokument istället för i traditionella
+            tabeller.
+            Det gör databasen flexibel och väl lämpad för webbapplikationer som arbetar med JSON-data.</p>
         <p>Webbplatsen är uppdelad i tre undersidor:</p>
         <ul>
             <li>Start (index.html) – visar alla lagrade arbetserfarenheter från databasen</li>
             <li>Lägg till (add.html) – möjlighet att lägga till nya arbetserfarenheter</li>
             <li>Om sidan (about.html) – information om webbplatsen och dess syfte</li>
         </ul>
+        <p>
+            Webbplatsen använder Fetch API för att kommunicera med webbtjänsten och utföra olika CRUD-operationer:
+        </p>
+        <ul>
+            <li>GET – hämtar lagrade arbetserfarenheter</li>
+            <li>POST – lägger till nya arbetserfarenheter</li>
+            <li>DELETE – raderar befintliga poster</li>
+        </ul>
         <h2>Syfte</h2>
-        <p>Syftet med webbplatsen är </p>
+        <p>Syftet med uppgiften är att:</p>
+        <ul>
+            <li>Visa dina kunskaper inom NoSQL-databaser.</li>
+            <li>Kunna skapa och administrera MongoDB-databaser.</li>
+            <li>Kunna skapa en REST-baserad webbtjänst med NodeJs, Express och MongoDb.</li>
+        </ul>
         <h2>Slutsatser</h2>
-        <p></p>
+        <p>Under arbetet med uppgiften har jag fått en bättre förståelse för hur frontend och backend kommunicerar genom
+            ett REST API.
+            Jag har lärt mig hur Fetch API används för att hämta och skicka data samt hur CRUD-operationer fungerar i
+            praktiken.
+            Jag har även fått erfarenhet av att arbeta med MongoDB och Mongoose för att lagra och hantera data i en
+            NoSQL-databas.
+            En viktig del av arbetet har varit att validera data både på klient- och serversidan för att skapa en mer
+            säker och stabil applikation
+            Uppgiften har gett en bättre förståelse för hur moderna webbapplikationer byggs upp och hur olika delar
+            samverkar i en fullstack-lösning.</p>
     </section>
 </body>
 
