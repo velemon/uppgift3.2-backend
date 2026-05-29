@@ -1,4 +1,4 @@
-### Moment 3 - Uppgift 2
+# Moment 3 - Uppgift 2
 Detta repository innehåller frontend-delen av en webbapplikation som konsumerar ett REST-baserat API för att hantera arbetserfarenheter.
 
 Applikationen är byggd med HTML, CSS och JavaScript och använder Fetch API för att kommunicera med den separat byggda backend-tjänsten.
@@ -13,7 +13,7 @@ Syftet med uppgiften är att kunna skapa och administrera MongoDB-databaser samt
 - Validerar formulärdata innan skickning
 - Visar data dynamiskt i en lista på startsidan
 
-# API
+## API
 Applikationen kommunicerar med ett REST API som är byggt med Node.js och Express.
 
 API-endpoint:
